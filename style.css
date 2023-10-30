@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.nav_logo_img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.nav_ul_link {
+    display: flex;
+    gap: 55px;
+    margin: 0 auto;
+    color: white;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+
+
+.nav_ul_link:hover a {
+    color: #808080;
+}
+
+.li__a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_ul_link:hover a:hover {
+    color: #5cdb95;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+.header__text {
+    background-color: ghostwhite;
+    padding: 30px;
+    text-align: justify;
+}
+
+.nav_link {
+    display: flex;
+    gap: 55px;
+    margin-top: 30px;
+}
+
+.header__h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #4581B7;
+
+}
+
+.header_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 10px;
+
+    color: #808080;
+    width: 595px;
+    height: 351px;
+}
+
+.header__ {
+    margin-top: 30px;
+}
+
+.header__p_2 {
+    width: 280px;
+
+    margin-top: 10px;
+
+
+}
+
+.header__div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.header_contact{
+    background-color: ghostwhite;
+    padding: 30px;
+    text-align: justify;
+}
+.header__number {
+    margin-top: 40px;
+}
+
+.header_email {
+    margin-top: 55px;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo__img {
+    width: 150;
+}
+
+.footer__h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 10px;
+
+    color: #808080;
+
+}
+
+.footer__p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+
+    color: #808080;
+
+
+}
